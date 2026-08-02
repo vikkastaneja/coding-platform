@@ -1,0 +1,21 @@
+{
+  "name": "worker-java",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "pg": "^8.22.0",
+    "redis": "^6.2.0"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
