@@ -3,6 +3,7 @@ const request = require('supertest');
 jest.mock('../../src/db/client', () => ({
     query: jest.fn(),
 }));
+
 const pool = require('../../src/db/client');
 const app = require('../../src/app');
 
